@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="car">
+        <div class="car__container">
+            <div class="car__title">
+                <h1>Автомобиль</h1>
+            </div>
+            <div class="car__inputs add">
+                <input id="model" type="text" placeholder="Введите марку">
+                <input id="color" type="text" placeholder="Введите цвет">
+                <input id="power" type="text" placeholder="Введите мощность">
+                <input id="price" type="text" placeholder="Введите цену">
+            </div>
+            <div class="car__btn">
+                <div class="car__options">
+                    <div class="car__add btn active">
+                        Добавить
+                    </div>
+                    <div class="car__edit btn">
+                        Редактировать
+                    </div>
+                </div>
+                <div class="car__action btn">
+                    Добавить
+                </div>
+            </div>
+            <div class="car__settings">
+                <div class="car__sort">
+                    <span>Сортировка по: </span>
+                    <select id="car__options1">
+                        <option value="">Ничего</option>
+                        <option value="">Алфавиту</option>
+                        <option value="">Мощности</option>
+                        <option value="">Цене</option>
+                    </select>
+                </div> 
+                <div class="car__search">
+                    <input type="text" placeholder="Введите...">
+                    <span>Поиск по: </span>
+                    <select id="car__options2">
+                        <option value="">Алфавиту</option>
+                        <option value="">Цвету</option>
+                        <option value="">Мощности</option>
+                        <option value="">Цене</option>
+                    </select>
+                </div>
+            </div>
+            <div class="items-car">
+                
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

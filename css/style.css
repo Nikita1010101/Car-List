@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e2e2e2;
+}
+
+.car__container {
+    margin: 0 auto;
+    padding: 1px;
+    width: 600px;
+    text-align: center;
+    background-color: #45A45A;
+    border-radius: 5px;
+}
+
+.car__title {
+    margin: 0 auto;
+    width: 250px;
+    height: 68px;
+}
+
+.car__title h1 {
+    line-height: 68px;
+    border-bottom: 4px solid black;
+    color: #E8E8E8;
+}
+
+.car__inputs {
+    margin: 60px 30px 30px 30px;
+    padding: 10px 15px;
+    border: 3px solid #000;
+    border-radius: 20px;
+}
+
+.car__inputs input {
+    margin: 0 0 20px 0;
+    padding: 0 20px;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.add input {
+    border: 3px solid #47FF5A;
+}
+
+.edit input {
+    border: 3px solid #FAFF11;
+}
+
+.car__inputs input:last-child {
+    margin-bottom: 0px;
+}
+
+.btn {
+    cursor: pointer;
+    height: 45px;
+    line-height: 45px;
+    box-shadow: 0 4px 3px #777;
+    transition: all ease 1s;
+}
+
+.car__btn {
+    margin: 0 auto;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.car__add {
+    margin: 0;
+    display: inline-block;
+    width: 140px;
+    color: #333;
+    background-color: #47FF5A;
+    border-radius: 12px 0 0 12px;
+}
+
+.car__add:hover {
+    background-color: #3deb4f;
+}
+
+.car__edit {
+    position: relative;
+    right: 4px;
+    margin: 0;
+    display: inline-block;
+    width: 140px;
+    color: #333;
+    background-color: #FAFF11;
+    border-radius: 0 12px 12px 0;
+}
+
+.car__edit:hover {
+    background-color: #e4e913;
+}
+
+.car__action {
+    background-color: #E8910E;
+    width: 160px;
+    color: #fff;
+    border-radius: 12px 12px 12px 12px;
+}
+
+.car__action:hover {
+    background-color: #DF8702;
+}
+
+.car__action:active, .active {
+    box-shadow: none;
+    position: relative;
+    top: 4px;
+}
+
+.car__settings {
+    margin: 30px 60px 0 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.car__sort {
+    padding-top: 20px;
+}
+
+.car__search input {
+    display: block;
+    height: 30px;
+    width: 250px;
+    margin-bottom: 4px;
+    padding: 1px 0 0 12px;
+    border: 2px solid midnightblue;
+    border-radius: 5px;
+} 
+
+.items-car {
+    margin: 30px 40px 30px 40px;
+    padding: 15px 10px;
+    text-align: left;
+    background-color: #557A9B;
+    border-radius: 8px;
+}
+
+.items-car__item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding: 20px 10px 20px 15px;
+    background-color: #264349;
+    font-size: 16px;
+    color:#fff;
+    border-radius: 5px;
+}
+
+.items-car__item:first-child {
+    margin: 0;
+}
+
+.items-car__delete {
+    margin-top: 25px;
+    width: 100px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    background-color: #FF4B4B;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.items-car__delete span {
+    color:#000;
+}
+
+.items-car__radioBtn{
+    margin: 60px 0;
+    padding: 7px 3px;
+    background-color: #FBFF22;
+    border-radius: 3px;
+}
+
+.options {
+    margin-bottom: 10px;
+}
+
+.none {
+    display: none;
+}
